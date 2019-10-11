@@ -1,4 +1,4 @@
-function Traveler(name, food, isHealthy) {
+function Traveler(name) {
     this.name = name;
     this.food = 1;
     this.isHealthy = true;
@@ -20,7 +20,7 @@ Traveler.prototype = {
 }
 
 
-function Wagon(capacity, passengers) {
+function Wagon(capacity) {
     this.capacity = capacity;
     this.passengers = [];
 }
